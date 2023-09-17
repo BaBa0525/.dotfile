@@ -89,7 +89,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
-export PATH="$(brew --prefix)/opt/sqlite3/bin:$PATH"
+# export PATH="$(brew --prefix)/opt/sqlite3/bin:$PATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -115,9 +115,9 @@ export PATH="$(brew --prefix)/opt/sqlite3/bin:$PATH"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-export PATH="/usr/local/opt/node@16/bin:$PATH"
-export PATH="/Applications/XAMPP/xamppfiles/bin:$PATH"
-export PATH="/usr/local/opt/mysql-client/bin:$PATH"
+# export PATH="/usr/local/opt/node@16/bin:$PATH"
+# export PATH="/Applications/XAMPP/xamppfiles/bin:$PATH"
+# export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 
 # pnpm
 export PNPM_HOME="/Users/hsunhsun/Library/pnpm"

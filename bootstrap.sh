@@ -40,3 +40,18 @@ link_files
 
 source ~/.zshrc
 
+# pushd ~
+
+# # nvm
+# curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+# nvm install 18
+
+# # nvim
+# wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz
+# tar xzvf nvim-linux64.tar.gz
+# sudo ln -s ${HOME}/nvim-linux64/bin/nvim /usr/local/bin
+
+# # kickstart.nvim
+# git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+
+# popd

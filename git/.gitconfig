@@ -1,0 +1,9 @@
+[init]
+defaultBranch = main
+
+[user]
+name = BaBa0525
+email = 103883300+BaBa0525@users.noreply.github.com
+
+[core]
+editor = "vim"

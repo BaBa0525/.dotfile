@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+DOTFILES="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -33,6 +33,7 @@ link_files() {
         cat "$file" | while read line || [ -n "$line" ]; do
             src=$(eval echo "$line" | cut -d '=' -f1)
             dest=$(eval echo "$line" | cut -d '=' -f2)
+            echo "$src" "$dest" "$line"
             symlink "$src" "$dest"
         done
     done
